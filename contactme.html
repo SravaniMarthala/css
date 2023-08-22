@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CONTACT ME</title>
+    <link rel="icon" href="contact.png">
+    <style>
+        h4{
+            border: 1px dotted;
+            border-color: aqua;
+            margin-left: 42%;
+            margin-right: 42%;
+        }
+        img{
+            border: 2px solid black;
+        }
+        #div1
+        {
+            border:2px dotted rgb(185, 113, 113);
+            margin-left: 15%;
+            margin-right: 15%;
+            
+        }
+        #div2
+        {
+            border:2px dotted rgb(185, 113, 113);
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        body{
+            color:whitesmoke;
+        }
+    </style>
+</head>
+<body background="abstract-textured-backgound.jpg">
+    <br><br><br>
+    <form method="GET" action="thankyou.png" >
+    <center>
+        <img src="details.png"width="70px" height="70px">
+        <h4>Infomation required</h4></center>
+    <br>
+    <div id="div1">
+        <br>
+        <center><label for="fname" >First Name</label>
+            <input style="padding-left: 20%; margin-right: 1% ;"type="text" required id="fname" name="fname" pattern="[a-zA-Z]"><br><br><br></center>
+        <center><label for="mname" >Middle Name</label>
+            <input style="padding-left: 20%; margin-right: 2%;" type="text" required id="mname" name="mname"pattern="[a-zA-Z]"><br><br><br>
+        </center>
+        <center><label for="lname">Last Name</label>
+        <input style="padding-left: 20%; margin-left: 1%;" type="text" required id="lname" name="lname" pattern="[a-zA-Z]"><br><br></center><br>
+        <center><label for="phonenumber">Phone Number</label>
+        <input style="padding-left: 20%; margin-right: 3%;" type="text" required id="mname" name="mname" pattern=[6-9]{1}[0-9]{9}><br><br></center>
+        <br>
+        <center><label for="email" >Email</label>
+        <input style="padding-left: 20%; margin-left: 3%;" type="email" required id="email" name="email"><br><br></center>
+        <br>
+        </div>
+        <br>
+        <div id="div2">
+        <center><label for="purpose" > Purpose of contact (in words) :</label><br><br>
+        <input style="padding-left: 20%; padding: 5%; margin-left: 5%;" type="text" required id="purpose" name="purpose" height="200px"><br><br></center><br>
+        </div>
+        <br>
+        <center>
+            <input type="submit" ><br><br></center>
+        </form>
+        </body>
+</html>
